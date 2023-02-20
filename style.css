@@ -1,0 +1,61 @@
+html {background: url(Images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  
+    h1 {
+      color: #ffffff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 25mm;
+      font-style: bold; 
+      font-weight: lighter;
+      position: center;
+      top: 15px;
+      left: 50px;    
+    }
+  
+    p {color: #ffffff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 10mm;
+      font-style: bold; 
+      font-weight: lighter;
+      position: static;
+      top: 15px;
+      left: 50px;    }
+    
+    form {
+      display: inline-block;
+      text-align: center;
+    }
+    
+    input[type="text"] {
+      width: 100px;
+      height: 25px;
+      font-size: 16px;
+    }
+    
+    select {
+      width: 150px;
+      height: 25px;
+      font-size: 16px;
+    }
+    
+    button[type="button"] {
+      width: 20%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #3e8e41;
+    }
