@@ -5,12 +5,11 @@ function convert() {
   
     const apiUrl = `https://measurement-unit-converter.p.rapidapi.com/length?value=${inputValue}&from=${inputUnit}&to=${outputUnit}`;
   
-  
     const options = {
       method: 'GET',
       headers: {
         'X-RapidAPI-Host': 'measurement-unit-converter.p.rapidapi.com',
-        'X-RapidAPI-Key': 'f71e53175emshad0f6aa120212fcp16a8dajsn6a66d445b682'
+        'X-RapidAPI-Key': process.env.RAPID_API_KEY
       }
     };
   
