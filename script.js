@@ -1,3 +1,6 @@
+require('dotenv').config();
+const MY_RAPID_API_KEY = process.env.RAPID_API_KEY;
+
 function convert() {
     const inputValue = document.getElementById('inputValue').value;
     const inputUnit = document.getElementById('inputUnit').value;
@@ -9,7 +12,7 @@ function convert() {
       method: 'GET',
       headers: {
         'X-RapidAPI-Host': 'measurement-unit-converter.p.rapidapi.com',
-        'X-RapidAPI-Key': process.env.RAPID_API_KEY
+        'X-RapidAPI-Key': MY_RAPID_API_KEY
       }
     };
   
