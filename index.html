@@ -9,6 +9,7 @@
     <form>
       <input type="text" id="inputValue">
       <select id="inputUnit">
+       
         <option value="nm">Nanometers</option>
         <option value="μm">Micrometer μm</option>
         <option value="mm">Millimeters</option>
@@ -18,10 +19,10 @@
         <option value="in">Inches</option>
         <option value="yd">Yard</option>
         <option value="ft">Feet</option>
-        <option value="ft-us">Feet-US</option>
+        <option value="ft-us">US-Feet</option>
         <option value="fathom">Fathom</option>
         <option value="mi">Miles</option>
-        <option value="nMI">Nautical Miles</option>
+        <option value="nMi">Nautical Mile</option>
       </select>
       <select id="outputUnit">
         <option value="nm">Nanometers</option>
@@ -33,16 +34,15 @@
         <option value="in">Inches</option>
         <option value="yd">Yard</option>
         <option value="ft">Feet</option>
-        <option value="ft-us">Feet-US</option>
+        <option value="ft-us">US-Feet</option>
         <option value="fathom">Fathom</option>
         <option value="mi">Miles</option>
-        <option value="nMI">Nautical Miles</option>
+        <option value="nMi">Nautical Mile</option>
       </select>
       <button type="button" onclick="convert()">Convert</button>
       <p>Result: <span id="outputValue"></span></p>
     </form>
 
     <script src="script.js"></script>
-    <!-- <script src="dummy.js"></script> -->
   </body>
 </html>
